@@ -19,3 +19,22 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* styles/globals.css
+.menu-item::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  bottom: 17px;
+  right: 5px;
+  left: -5px;
+  height: 1px;
+  z-index: 1;
+  transition: all 0.4s ease-out;
+  background-color: #E5BF4A;
+}
+
+.menu-item:hover::after {
+  width: 100%;
+} */
