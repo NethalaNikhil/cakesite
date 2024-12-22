@@ -7,6 +7,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'poiret': ['"Poiret One"', 'cursive'],
+        'jost':['"Jost"','sans-serif'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
